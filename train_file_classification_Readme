@@ -1,0 +1,10 @@
+# 여러 객체 클래스에 대해 탐지하는게 어려운 관계로 crop 조건만 최대한 만족하도록 바운딩 박스 좌표값에 초점을 맞춰 진행하였다.
+
+# starpjt3의 best.pt
+
+  batch =32, 
+  train_data = 890 
+  validation = 90
+
+  model size = yolov5l
+  epochs     = 100
