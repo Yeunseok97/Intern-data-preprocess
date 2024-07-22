@@ -92,7 +92,7 @@ yolov5
  	|		- general yolov5 setting	
  	|
  	|
- 	|- models		- general yolov5 setting
+ 	|- models	- general yolov5 setting
  	|
  	|- yaml file 				(File_extraction)	"select_Star2.yaml
  	|- yaml file 				(Table_extraction)	"select_Star.yaml"
