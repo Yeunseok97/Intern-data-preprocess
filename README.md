@@ -106,13 +106,17 @@ yolov5
  	|- Train file				(Table_extraction)	"train_table_classification.ipynb"
 	
 Augmentation.ipynb
- 	|- random application of brightness, saturation, contrast
+ 	
+  	|- random application of brightness, saturation, contrast
 
 
 data_conversion.ipynb
+
  	|- xml to txt
-  	|- looking for missing image or label file
-  	|- class number redefinition
+
+   	|- looking for missing image or label file
+  	
+   	|- class number redefinition
 
 	
 
