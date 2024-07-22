@@ -63,58 +63,100 @@ Type_C 	↗
 	
 	
 yolov5
+
 	|- dataset
-	|	- File_classification
-	|			- test		- images
-	|
-	|			- train 	- images
-	|					- labels
-	|			- valid  
-	|					- images
-	|					- labels
-	|									
-	|	- Table_classification
-	|			- test		- images
-	|
-	|			- train 	- images
-	|					- labels
-	|			- valid  
-	|					- images
-	|					- labels
-	|									
-	|- runs
-	|	- detect
-	|		- exp			- detected and cropped files	
-	|		- zip_code		- exp dir to zip				- task dir file count
-	|
-	|	- train	
-	|		- general yolov5 setting	
-	|
-	|
-	|- models		- general yolov5 setting
-	|
-	|- yaml file 				(File_extraction)		"select_Star2.yaml"
-	|- yaml file 				(Table_extraction)	"select_Star.yaml"
-	|
-	|- Detect file			(File_extraction)		"Detect_File_classification.ipynb"	
-	|- Detect file			(Table_extraction)	"Detect_Table_classification.ipynb"	
-	|
-	|
-	|- Train file				(File_extraction)		"train_file_classification.ipynb"
-	|- Train file				(Table_extraction)	"train_table_classification.ipynb"
 
+ 	|	- File_classification
+	
+ 	|			- test		- images
+	
+ 	|
+	
+ 	|			- train 	- images
+	
+ 	|					- labels
+	
+ 	|			- valid  
+	
+ 	|					- images
+	
+ 	|					- labels
+	
+ 	|									
+	
+ 	|	- Table_classification
+	
+ 	|			- test		- images
+	
+ 	|
+	
+ 	|			- train 	- images
+	
+ 	|					- labels
+	
+ 	|			- valid  
+	
+ 	|					- images
+	
+ 	|					- labels
+	
+ 	|									
+	
+ 	|- runs
+	
+ 	|	- detect
+	
+ 	|		- exp			- detected and cropped files	
+	
+ 	|		- zip_code		- exp dir to zip				- task dir file count
+	
+ 	|
+	
+ 	|	- train	
+	
+ 	|		- general yolov5 setting	
+	
+ 	|
+	
+ 	|
+	
+ 	|- models		- general yolov5 setting
+	
+ 	|
+	
+ 	|- yaml file 				(File_extraction)		"select_Star2.yaml"
 
+ 	|- yaml file 				(Table_extraction)	"select_Star.yaml"
+	
+ 	|
+	
+ 	|- Detect file			(File_extraction)		"Detect_File_classification.ipynb"	
+	
+ 	|- Detect file			(Table_extraction)	"Detect_Table_classification.ipynb"	
+	
+ 	|
+	
+ 	|
+	
+ 	|- Train file				(File_extraction)		"train_file_classification.ipynb"
+	
+ 	|- Train file				(Table_extraction)	"train_table_classification.ipynb"
 
+	
 Augmentation.ipynb
-	|- random application of brightness, saturation, contrast
 
+ 	|- random application of brightness, saturation, contrast
 
 
 data_conversion.ipynb
-	|- xml to txt
-	|- looking for missing image or label file
-	|- class number redefinition
 
+ 	|- xml to txt
+	
+ 	|- looking for missing image or label file
+	
+ 	|- class number redefinition
+
+	
 
 
 
