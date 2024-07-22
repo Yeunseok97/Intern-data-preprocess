@@ -55,8 +55,10 @@ Table extraction의 로직에서 파일 분류하는 로직만 주석처리 후 
 Project dir architecture
 
 
-Type_A      ↘
+Type_A  ↘
+
 Type_B 	→  Save dir for cropped files
+
 Type_C 	↗
 	
 	
