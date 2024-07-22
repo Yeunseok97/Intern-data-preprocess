@@ -65,7 +65,6 @@ Type_C 	↗
 yolov5
 
 	|- dataset
-
  	|	- File_classification
 	
  	|			- test		- images
@@ -124,13 +123,13 @@ yolov5
 	
  	|
 	
- 	|- yaml file 				(File_extraction)		"select_Star2.yaml"
+ 	|- yaml file 				(File_extraction)	"select_Star2.yaml"
 
  	|- yaml file 				(Table_extraction)	"select_Star.yaml"
 	
  	|
 	
- 	|- Detect file			(File_extraction)		"Detect_File_classification.ipynb"	
+ 	|- Detect file			(File_extraction)	"Detect_File_classification.ipynb"	
 	
  	|- Detect file			(Table_extraction)	"Detect_Table_classification.ipynb"	
 	
@@ -138,7 +137,7 @@ yolov5
 	
  	|
 	
- 	|- Train file				(File_extraction)		"train_file_classification.ipynb"
+ 	|- Train file				(File_extraction)	"train_file_classification.ipynb"
 	
  	|- Train file				(Table_extraction)	"train_table_classification.ipynb"
 
