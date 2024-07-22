@@ -111,8 +111,8 @@ Augmentation.ipynb
 
 data_conversion.ipynb
  	|- xml to txt
- 	|- looking for missing image or label file
- 	|- class number redefinition
+  	|- looking for missing image or label file
+  	|- class number redefinition
 
 	
 
